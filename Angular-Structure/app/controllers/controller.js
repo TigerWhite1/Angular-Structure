@@ -6,17 +6,17 @@
  Author URI: http://www.thomasdugue.com
  */
 
-angular.module('myApp')
+ angular.module('myApp')
 
 
-	.controller('homeController', function($scope, $http, $location, $cookies) {
-		
-	})
+ .controller('homeController', function($scope, $http, $location, $cookies) {
+ 	
+ })
 
-	.controller('loginController', function($scope, $http, $location, $cookies) {
-		
-	})
-		
-	.controller('logoutController', function($scope, $http, $location, $cookies) {
+ .controller('loginController', function($scope, $http, $location, $cookies) {
+ 	
+ })
+ 
+ .controller('logoutController', function($scope, $http, $location, $cookies) {
 
-	})
+ })
