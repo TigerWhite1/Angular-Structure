@@ -5,6 +5,7 @@ Version: 0.1
 Author: Thomas dugue
 Author URI: http://www.thomasdugue.com
 */
+angular.module('myApp')
 
 .service('Service', function() {
 
