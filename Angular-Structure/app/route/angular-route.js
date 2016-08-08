@@ -11,15 +11,15 @@ angular.module('myApp', ['ngRoute', 'ngCookies'])
 .config(function($routeProvider) {
 
 	$routeProvider.when('/', {
-		templateUrl: "View/",
+		templateUrl: "View/home.html",
 		controller: "homeController"
 	})
-	$routeProvider.when('/account', {
+	$routeProvider.when('/login', {
 		templateUrl: "View/",
-		controller: "accountController"
+		controller: "loginController"
 	})
 	$routeProvider.when('/logout', {
-		templateUrl: "View/",
+		templateUrl: "View/home.html",
 		controller: "logoutController"
 	})
 });
