@@ -9,18 +9,14 @@
 angular.module('myApp')
 
 
-	.service('Service', function() {
-
-	})
-
-	.controller('homeController', function($scope, $http, $location, $cookies,api) {
+	.controller('homeController', function($scope, $http, $location, $cookies) {
 		
 	})
 
-	.controller('loginController', function($scope, $http, $location, $route, $cookies,check,api) {
+	.controller('loginController', function($scope, $http, $location, $cookies) {
 		
 	})
 		
-	.controller('logoutController', function($scope, $http, $location, $cookies,check,api) {
+	.controller('logoutController', function($scope, $http, $location, $cookies) {
 
 	})
